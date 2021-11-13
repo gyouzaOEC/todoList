@@ -1,5 +1,4 @@
 
-
 from django.urls import path , include
 from .views import TodoList, TodoDetail, TodoCreate, TodoDelete, TodoUpdate
 
