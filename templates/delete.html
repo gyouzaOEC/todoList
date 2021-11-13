@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+<form action="" method="POST">{% csrf_token %}
+
+<input type="submit" value="delete">
+
+</form>
+
+<a href="{% url 'list' %}" class="">戻る</a>
+
+{% endblock content %}
